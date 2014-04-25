@@ -4,6 +4,7 @@ iptables -F
 
 # 初期化
 iptables -P INPUT DROP
+iptables -P OUTPUT ACCEPT
 iptables -P FORWARD DROP
 
 ALLOW_IP=192.168.56.1
