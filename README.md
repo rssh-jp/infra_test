@@ -8,3 +8,7 @@ kern.info     /var/log/iptables.log
 を追加して保存。
 /etc/init.d/rsyslog restart
 を実行する。
+
+その後
+iptables.shを実行
+
